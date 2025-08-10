@@ -11,7 +11,7 @@ import java.net.URL
 @Service
 class GeminiService {
 
-    private val apiKey = "AIzaSyDUTsFaIA9MFAV18usincSYl7m4VWA117g" // Move to env var for production
+    private val apiKey = "xxxx" // Replace with your own gemini token 
     private val model = "gemini-1.5-flash"
     private val endpoint =
             "https://generativelanguage.googleapis.com/v1beta/models/$model:generateContent?key=$apiKey"
