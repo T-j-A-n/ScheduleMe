@@ -37,12 +37,12 @@ This project is a medical prescription management app consisting of a Kotlin Spr
    ```bash
    ./gradlew bootRun
    ```
-5. Backend runs on http://localhost:8080
-| Method | Endpoint                | Description                   |
-| ------ | ----------------------- | ----------------------------- |
-| POST   | `/auth/register`        | Register a new user           |
-| POST   | `/auth/login`           | User login, returns JWT token |
-| POST   | `/schedule/upload`      | Upload prescription PDF       |
-| GET    | `/schedule/my`          | Get current user’s schedules  |
-| PATCH  | `/schedule/update/{id}` | Update a medicine schedule    |
-| DELETE | `/schedule/delete/{id}` | Delete a medicine schedule    |
+| Method | Endpoint               | Description                             |
+|--------|------------------------|-------------------------------------|
+| POST   | `/auth/register`       | Register a new user                   |
+| POST   | `/auth/login`          | User login, returns JWT token         |
+| POST   | `/schedule/upload`     | Upload prescription PDF               |
+| GET    | `/schedule/my`         | Get current user’s schedules          |
+| PATCH  | `/schedule/update/{id}`| Update a medicine schedule            |
+| DELETE | `/schedule/delete/{id}`| Delete a medicine schedule            |
+
